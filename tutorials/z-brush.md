@@ -7,7 +7,6 @@ sources:
       title: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
     - url: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
       title: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
-category: tutorials
 page-type: tutorial
 ---
 

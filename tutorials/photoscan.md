@@ -7,7 +7,6 @@ sources:
       title: Oficjalna strona Photoscana
     - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
       title: Manual do wersji Standard 1.0
-category: tutorials
 page-type: tutorial
 ---
 
