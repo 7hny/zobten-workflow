@@ -146,7 +146,12 @@ img + sup {
     padding-left: 0;
 }
 
-.active a, .active{
+.list-unstyled ul {
+    list-style:none;
+    padding-left: 20px;
+}
+
+.active>a, a.active{
     font-weight: bold;
 }
 

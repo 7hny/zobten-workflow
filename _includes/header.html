@@ -7,11 +7,11 @@
 <ul class="list-unstyled">
     <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/">Home</a></li>
     <li class="{% if page.url contains 'tutorials' %}active{% endif %}"><a href="{{site.baseurl}}/tutorials/">Tutorials</a>
-        {% if page.url contains 'tutorials' %}
+        {% if page.page-type == 'tutorial' %}
             <ul>
                 {% for tutorial in site.pages %}
                     {% if tutorial.page-type == 'tutorial' %}
-                        <li><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></li>
+                        <li class="{% if page.url contains tutorial.folder %}active{% endif %}"><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>

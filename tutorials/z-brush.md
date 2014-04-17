@@ -8,6 +8,7 @@ sources:
     - url: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
       title: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
 page-type: tutorial
+folder: z-brush
 ---
 
 Exometeorologists have managed to create a map of the clouds on a planet outside our solar system for the first time.
