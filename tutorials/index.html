@@ -12,4 +12,13 @@ layout: default
     </li>
     {% endfor %}
 
+    {% for tutorial in site.pages %}
+        {% if tutorial.page-type == 'tutorial' %}
+        <li>
+            <strong><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></strong>
+            <p>{{tutorial.meta}}</p>
+        </li>
+        {% endif %}
+    {% endfor %}
+
 </ul>
