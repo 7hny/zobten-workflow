@@ -2,12 +2,12 @@
 layout: default
 ---
 <section>
-    <h3>Tutorials</h3>
+    <h2>Tutorials</h2>
     <ul class="list-unstyled">
 
         {% for tutorial in site.posts %}
         <li>
-            <a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a>
+            <a href="{{site.baseurl}}{{tutorial.url}}"><h3>{{tutorial.title}}</h3></a>
             <p>{{tutorial.meta}}</p>
         </li>
         {% endfor %}
