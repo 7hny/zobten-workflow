@@ -136,6 +136,11 @@ footer {
 
 /*helpers*/
 
+img + sup {
+    margin-top: 5px;
+    display: block;
+}
+
 .list-unstyled {
     list-style:none;
     padding-left: 0;

@@ -13,7 +13,6 @@ category: tutorials
 ### 1. Konfiguracja
 
 ![alt text](http://7hny.github.io/zobten-workflow/img/tutorials/photoscan/test.png "Logo Title Text 1")
-
 <sup>Fig. 1.1 Test</sup>
 
 Future Mars explorers may be able to get all the water they need out of the red dirt beneath their boots, a new study suggests.
