@@ -5,13 +5,6 @@ layout: default
 <h2>Tutorials</h2>
 <ul class="list-unstyled">
 
-    {% for tutorial in site.categories.tutorials %}
-    <li>
-        <strong><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></strong>
-        <p>{{tutorial.meta}}</p>
-    </li>
-    {% endfor %}
-
     {% for tutorial in site.pages %}
         {% if tutorial.page-type == 'tutorial' %}
         <li>
