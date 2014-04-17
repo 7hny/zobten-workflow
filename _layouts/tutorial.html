@@ -5,10 +5,10 @@ layout: default
 {{content}}
 
 <h3>Sources</h3>
-<footer>
-    <ol>
-        {% for source in page.sources %}
-        <li><a href="{{source.url}}">{{source.title}}</a></li>
-        {% endfor %}
-    </ol>
-</footer>
+
+<ol>
+    {% for source in page.sources %}
+    <li><a href="{{source.url}}" target="_blank">{{source.title}}</a></li>
+    {% endfor %}
+</ol>
+
