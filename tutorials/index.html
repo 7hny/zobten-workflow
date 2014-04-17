@@ -7,7 +7,7 @@ layout: default
 
     {% for tutorial in site.categories.tutorials %}
     <li>
-        <h3><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></h3>
+        <a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a>
         <p>{{tutorial.meta}}</p>
     </li>
     {% endfor %}
