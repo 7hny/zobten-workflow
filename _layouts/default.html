@@ -14,11 +14,17 @@
 </head>
 <body>
 <div class="wrapper">
-    {% include header.html %}
+    <header>
+        {% include header.html %}
+    </header>
 
-    {{content}}
+    <section>
+        {{content}}
+    </section>
 
-    {% include footer.html %}
+    <footer>
+        {% include footer.html %}
+    </footer>
 
 </div>
 <script src="{{site.baseurl}}/javascripts/scale.fix.js"></script>

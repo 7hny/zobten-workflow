@@ -1,16 +1,15 @@
 ---
 layout: default
 ---
-<section>
-    <h2>Tutorials</h2>
-    <ul class="list-unstyled">
 
-        {% for tutorial in site.categories.tutorials %}
-        <li>
-            <h3><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></h3>
-            <p>{{tutorial.meta}}</p>
-        </li>
-        {% endfor %}
+<h2>Tutorials</h2>
+<ul class="list-unstyled">
 
-    </ul>
-</section>
+    {% for tutorial in site.categories.tutorials %}
+    <li>
+        <h3><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></h3>
+        <p>{{tutorial.meta}}</p>
+    </li>
+    {% endfor %}
+
+</ul>
