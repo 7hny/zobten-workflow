@@ -3,3 +3,10 @@ layout: default
 ---
 <h2>{{page.title}}</h2>
 {{content}}
+<footer>
+    <ul class="list-unstyled">
+        {% for source in page.sources %}
+        <li><a href="{{source}}">{{source}}</a></li>
+        {% endfor %}
+    </ul>
+</footer>
