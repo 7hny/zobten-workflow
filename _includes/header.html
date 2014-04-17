@@ -5,11 +5,9 @@
         <a href="https://github.com/7hny/zobten-workflow">View the Project on GitHub<small>7hny/zobten-workflow</small></a>
     </p>
 
-    {{page.url}}
-
-    <ul>
-        <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-        <li><a href="{{site.baseurl}}/tutorials/photoscan" class="{% if page.url == '/tutorials/photoscan' %}current{% endif %}">Photoscan tutorial</a></li>
+    <ul class="list-unstyled">
+        <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.baseurl}}/">Home</a></li>
+        <li class="{% if page.url == '/tutorials/photoscan' %}active{% endif %}"><a href="{{site.baseurl}}/tutorials/photoscan">Photoscan tutorial</a></li>
     </ul>
 
 </header>
