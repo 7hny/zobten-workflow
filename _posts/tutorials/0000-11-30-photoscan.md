@@ -1,12 +1,12 @@
 ---
 layout: tutorial
-title: Curiosity rover makes big water discovery in Mars dirt
-meta: Future Mars explorers may be able to get all the water they need out of the red dirt beneath their boots.
+title: Photoscan
+meta: Przekrojowy tutorial - instrukcja obsługi Photoscana, czyli jak używać Photoscana tak aby osiągnąć najlepsze rezultaty dla naszych potrzeb. Tutorial W trakcie budowy.
 sources:
-    - url: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
-      title: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
-    - url: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
-      title: http://www.space.com/22949-mars-water-discovery-curiosity-rover.html
+    - url: http://www.agisoft.ru/products/photoscan
+      title: Oficjalna strona Photoscana
+    - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
+      title: Manual do wersji Standard 1.0
 category: tutorials
 ---
 
