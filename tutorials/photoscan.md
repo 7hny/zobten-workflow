@@ -118,8 +118,8 @@ Jest to najważniejszy, i najbardziej intensywny obliczeniowo krok, podczas któ
 
 Wybieramy z głównego menu komendę `Workflow > Build Dense Cloud`.
 
-![alt text](photoscan_04_03.png "Build Dense Cloud")
-<sup>Fig. 4.3 Build Dense Cloud</sup>
+![alt text](photoscan_05_01.png "Build Dense Cloud")
+<sup>Fig. 5.1 Build Dense Cloud</sup>
 
 Opcja `Quality` (Fig. 5.1) odpowiada za szczegółowość rekonstrukcji, im wyższa jakość tym dłuższe obliczenia (Fig. 5.2). Każdy krok zminiejsza rozmiar zdjęcia 4x. `Ultra` to romiar oryginalny zdjęcia.
 
