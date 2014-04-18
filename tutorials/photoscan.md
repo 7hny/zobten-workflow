@@ -63,10 +63,10 @@ Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiekt
 
 ## 4. Kalibracja koordynat
 
-![alt text](photoscan_003.png "Standardowy system koordynat")
+![alt text](photoscan_004a.png "Standardowy system koordynat")
 <sup>Fig. 4.1 Standardowy system koordynat</sup>
 
-![alt text](photoscan_003.png "Koordynaty FBX")
+![alt text](photoscan_004b.png "Koordynaty FBX")
 <sup>Fig. 4.2 Koordynaty FBX (osie Z i X zamienione)</sup>
 
 
