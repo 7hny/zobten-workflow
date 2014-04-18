@@ -7,6 +7,8 @@ sources:
       title: Oficjalna strona programu Photoscan
     - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
       title: Manual do wersji Standard 1.0
+    - http://ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
+      title: Delivering Aligned and Scaled Photoscan Outputs
 page-type: tutorial
 folder: photoscan
 ---
@@ -64,7 +66,7 @@ Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiekt
 ![alt text](photoscan_003.png "Standardowy system koordynat")
 <sup>Fig. 4.1 Standardowy system koordynat</sup>
 
-![alt text](photoscan_003.png "Liczba odnalezionych punktów referencyjnych")
+![alt text](photoscan_003.png "Koordynaty FBX")
 <sup>Fig. 4.2 Koordynaty FBX (osie Z i X zamienione)</sup>
 
 
