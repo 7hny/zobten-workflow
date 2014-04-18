@@ -11,7 +11,7 @@ page-type: tutorial
 folder: photoscan
 ---
 
-### 1. Konfiguracja programu
+## 1. Konfiguracja programu
 
 Photoscan wspiera akcelerację GPU (openCL). Wykorzystanie GPU w procesie rekonstrukcji ma sens tylko na w miarę wydajnych, desktowpowych, kartach graficznych. Zintegrowane karty graficzne nie nadają się do tego celu, mogą wręcz spowolnić działąnie programu.
 
@@ -22,7 +22,7 @@ Aby skonfigurować akcelerację GPU, wchodzimy do menu `Tools > Preferences`, do
 
 Zaznaczamy karty graficzne. Dla każdej zaznaczonej karty graficznej musimy zmniejszyć liczbę wykorzystywanych rdzeni procesora o 1.
 
-#### Lista obsługiwanych kart graficznych
+### Lista obsługiwanych kart graficznych
 
 NVIDIA |  AMD |
 --- | ---
