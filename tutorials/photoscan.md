@@ -125,10 +125,10 @@ Opcja `Quality` (Fig. 5.1) odpowiada za szczegółowość rekonstrukcji, im wyż
 
 Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni rekonstruowanego obiektu obiektu, Mild - duża, Aggressive - niska (Fig. 5.3). Opcja `Aggressive` przelicza się szybciej.
 
-![alt text](photoscan_05_02.png "Jakość High i Medium")
+![alt text](photoscan_05_02.jpg "Jakość High i Medium")
 <sup>Fig. 5.2 Kolejno, jakość High i Medium</sup>
 
-![alt text](photoscan_05_03.png "Build Dense Cloud")
+![alt text](photoscan_05_03.jpg "Build Dense Cloud")
 <sup>Fig. 5.3 Kolejno, Mild i Aggressive</sup>
 
 ## 6. Usuwanie artefaktów
