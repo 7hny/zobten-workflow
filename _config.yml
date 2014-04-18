@@ -1,4 +1,4 @@
 markdown: redcarpet
 baseurl: /zobten-workflow
-exclude: ['README.md']
+exclude: ['README.md', 'robots.txt']
 permalink: pretty
