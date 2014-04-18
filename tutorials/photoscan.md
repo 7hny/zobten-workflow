@@ -11,7 +11,7 @@ page-type: tutorial
 folder: photoscan
 ---
 
-### 1. Konfiguracja programu
+## 1. Konfiguracja programu
 
 Photoscan wspiera akcelerację GPU (openCL). Wykorzystanie GPU w procesie rekonstrukcji ma sens tylko na w miarę wydajnych, desktowpowych, kartach graficznych. Zintegrowane karty graficzne nie nadają się do tego celu, mogą wręcz spowolnić działąnie programu.
 
@@ -24,7 +24,7 @@ Zaznaczamy karty graficzne. Dla każdej zaznaczonej karty graficznej musimy zmni
 
 
 
-#### Lista obsługiwanych kart graficznych
+### Lista obsługiwanych kart graficznych
 
 NVIDIA |  AMD |
 --- | ---
@@ -41,7 +41,7 @@ GeForce GTX 465 |
 GeForce GTX 285 |
 GeForce GTX 280 |
 
-### 2. Kalibracja
+## 2. Kalibracja
 
 Celem tego kroku jest wyliczenie pozycji aparatu, dla każdego zdjęcia. Sama chmura punktów będąca rezultatem tego kroku nie będzie wykorzystana przy rekonstrukcji modelu, służy jedynie do kalibracji sceny.
 
