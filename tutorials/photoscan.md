@@ -72,6 +72,9 @@ Dla większej przejrzystości wyłączamy widoczność kamer (Fig 3.2).
 <sup>Fig. 3.2 Widoczność kamer</sup>
 
 *menu*
+
+test
+
 _menu_
 
 Zmieniamy widok na `Ortographic` (*menu* `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny ( *menu* `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
