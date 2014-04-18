@@ -71,13 +71,7 @@ Dla większej przejrzystości wyłączamy widoczność kamer (Fig 3.2).
 ![alt text](photoscan_03_02.png "Widoczność kamer")
 <sup>Fig. 3.2 Widoczność kamer</sup>
 
-*menu*
-
-test
-
-_menu_
-
-Zmieniamy widok na `Ortographic` (*menu* `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny ( *menu* `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
+Zmieniamy widok na `Ortographic` ( *menu* `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny ( *menu* `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
 
 ![alt text](photoscan_03_03.png "Rotate object")
 <sup>Fig. 3.3 Narzędzie `Rotate Object`</sup>
@@ -97,7 +91,6 @@ Rotate Up | 8
 Rotate Down | 2
 Rotate Left | 4
 Rotate Right | 6
-
 
 ## 4. Ustalenie zakresu rekonstrukcji
 
