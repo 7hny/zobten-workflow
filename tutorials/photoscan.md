@@ -4,7 +4,7 @@ title: Photoscan
 meta: Opis procesu rekonstrukcji modeli 3D ze zdjęć przy pomocy programu Photoscan
 sources:
     - url: http://www.agisoft.ru/products/photoscan
-      title: Oficjalna strona Photoscana
+      title: Oficjalna strona programu Photoscan
     - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
       title: Manual do wersji Standard 1.0
 page-type: tutorial
@@ -53,7 +53,7 @@ Aby rozpocząć kalibrację sceny, dodajemy zdjęcia do przestrzeni roboczej `Wo
 Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screenshocie. Następnie rozwijamy menu `Advanced` i ustawiamy wartość parametru `Point limit`. Im więcej punktów, tym dokładniej jest wyliczona pozycja aparatu dla każdego zdjęcia. W tym przypadku ustawiliśmy 180 000 punktów, im więcej punktów tym dokłądniejsza kalibracja, lecz dłuższe obliczenia. Nie znaczy to że program znajdzie tyle punktów, ile ustawilismy - wszystko zależy od ilości, jakości zdjęć oraz od rozmiaru sceny. Liczba odnalezionych punktów referencyjnych może być więc mniejsza niz zadana wartość (Fig. 2.2).
 
 ![alt text](photoscan_003.jpg "Liczba odnalezionych punktów referencyjnych")
-<sup>Fig. 2.2 Liczba odnalezionych punktów referencyjnych (lewy-dolny róg)</sup>
+<sup>Fig. 2.2 Liczba odnalezionych punktów referencyjnych</sup>
 
 Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli że możliwa jest dokąłdniejsza kalibracja przy zwiększeniu wartości tego parametru).
 
