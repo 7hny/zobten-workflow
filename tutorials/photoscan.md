@@ -47,7 +47,7 @@ GeForce GTX 280 |
 
 Celem tego kroku jest wyliczenie pozycji aparatu, dla każdego zdjęcia. Sama chmura punktów będąca rezultatem tego kroku nie będzie wykorzystana przy rekonstrukcji modelu, służy jedynie do kalibracji sceny.
 
-Aby rozpocząć kalibrację sceny, dodajemy zdjęcia do przestrzeni roboczej `Workflow > Add Photos` lub 'Workflow > Add Folder'. Następnie Wchodzimy do menu `Workflow > Align Photos` (Fig. 2.1).
+Aby rozpocząć kalibrację sceny, dodajemy zdjęcia do przestrzeni roboczej   `Workflow > Add Photos` lub `Workflow > Add Folder`. Następnie Wchodzimy do menu `Workflow > Align Photos` (Fig. 2.1).
 
 ![alt text](photoscan_02_01.jpg "Opcje kalibracji")
 <sup>Fig. 2.1 Opcje kalibracji</sup>
@@ -102,7 +102,7 @@ Interesujący nasz zakres rekonstrukcji ustalamy przy pomocy narzędzi `Resize R
 ![alt text](photoscan_04_01.png "Region tools")
 <sup>Fig. 4.1 Narzędzia do zmiany zakresy rekonstrukcji</sup>
 
-Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortographic) widokami, podobnie jak w poprzednim kroku. Zawężenie akrsu rekonstrukcji zminiejsza liczbę artefaktó oraz przyśpiesza obliczenia (Fig. 4.3)
+Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortographic) widokami, podobnie jak w poprzednim kroku. Zawężenie akrsu rekonstrukcji zminiejsza liczbę artefaktów oraz przyśpiesza obliczenia (Fig. 4.3)
 
 ![alt text](photoscan_04_02.png "Domyślny zakres rekonstrukcji")
 <sup>Fig. 4.2 Domyślny zakres rekonstrukcji</sup>
@@ -110,7 +110,7 @@ Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortograph
 ![alt text](photoscan_04_03.png "Zakres rekonstrukcji")
 <sup>Fig. 4.3 Zakres rekonstrukcji</sup>
 
-## 5. Generacja Zagęszczonej chmury punktów
+## 5. Generacja zagęszczonej chmury punktów
 
 ## 6. Usuwanie artefaktów
 
