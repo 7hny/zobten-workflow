@@ -69,9 +69,9 @@ Po zakonczeniu procesu kalibracji zdjęć otrzymujemy rzadką chmurę punktów -
 Dla większej przejrzystości wyłączamy widoczność kamer (Fig 3.2).
 
 ![alt text](photoscan_03_02.png "Widoczność kamer")
-<sup>Fig. 3.3 Widoczność kamer</sup>
+<sup>Fig. 3.2 Widoczność kamer</sup>
 
-Zmieniamy widok na `Ortographic` (_menu_ `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny (_menu_ `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
+Zmieniamy widok na `Ortographic` (*menu* `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny (*menu* `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
 
 ![alt text](photoscan_03_03.png "Rotate object")
 <sup>Fig. 3.3 Narzędzie `Rotate Object`</sup>
