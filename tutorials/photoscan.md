@@ -1,7 +1,7 @@
 ---
 layout: tutorial
 title: Photoscan
-meta: Przekrojowy tutorial - instrukcja obsługi Photoscana, czyli jak używać Photoscana tak aby osiągnąć najlepsze rezultaty dla naszych potrzeb. Tutorial W trakcie budowy.
+meta: Opis procesu rekonstrukcji modeli 3D ze zdjęć, za pomocą programu Photoscan
 sources:
     - url: http://www.agisoft.ru/products/photoscan
       title: Oficjalna strona Photoscana
@@ -17,10 +17,12 @@ Photoscan wspiera akcelerację GPU (openCL). Wykorzystanie GPU w procesie rekons
 
 Aby skonfigurować akcelerację GPU, wchodzimy do menu `Tools > Preferences`, do zakładki `OpenCL`
 
+Zaznaczamy karty graficzne. Dla każdej zaznaczonej karty graficznej musimy zmniejszyć liczbę wykorzystywanych rdzeni procesora o 1 (Fig. 1.1).
+
 ![alt text](photoscan_005.jpg "Ustawienia OpenCL")
 <sup>Fig. 1.1 Ustawienia OpenCL</sup>
 
-Zaznaczamy karty graficzne. Dla każdej zaznaczonej karty graficznej musimy zmniejszyć liczbę wykorzystywanych rdzeni procesora o 1.
+
 
 #### Lista obsługiwanych kart graficznych
 
@@ -38,5 +40,17 @@ GeForce GTX 470 |
 GeForce GTX 465 |
 GeForce GTX 285 |
 GeForce GTX 280 |
+
+### 2. Kalibracja
+
+Celem tego kroku jest wyliczenie pozycji aparatu, dla każdego zdjęcia. Sama chmura punktów będąca rezultatem tego kroku nie będzie wykorzystana przy rekonstrukcji modelu, służy jedynie do kalibracji sceny.
+
+Aby rozpocząć kalibrację sceny, dodajemy zdjęcia do przestrzeni roboczej `Workflow > Add Photos` lub 'Workflow > Add Folder'. Następnie Wchodzimy do menu `Workflow > Align Photos` (Fig. 2.1).
+
+![alt text](photoscan_006.jpg "Opcje kalibracji")
+<sup>Fig. 2.1 Opcje kalibracji</sup>
+
+Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screenshocie. Następnie rozwijamy menu `Advanced` i ustawiamy wartość parametru `Point limit`. Im więcej punktów, tym dokładniej jest wyliczona pozycja aparatu dla każdego zdjęcia. W tym przypadku ustawiliśmy 180 000 punktów, im więcej punktów tym dokłądniejsza kalibracja, lecz dłuższe obliczenia. Nie znaczy to że program znajdzie tyle punktów, ile ustawilismy - wszystko zależy od ilości, jakości zdjęć oraz od rozmiaru sceny - liczba odnalezionych punktów referencyjnych może być więc mniejsza niz zadana wartość. Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ogólnie możemy przyjąć wartość 100 000 / 25 zdjęć (to założenie jest jeszcze do weryfikacji).
+
 
 
