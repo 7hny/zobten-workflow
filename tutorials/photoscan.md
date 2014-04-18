@@ -7,7 +7,7 @@ sources:
       title: Oficjalna strona programu Photoscan
     - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
       title: Manual do wersji Standard 1.0
-    - http: //ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
+    - url: http://ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
       title: Delivering Aligned and Scaled Photoscan Outputs
 page-type: tutorial
 folder: photoscan
@@ -15,13 +15,13 @@ folder: photoscan
 
 ## 1. Konfiguracja programu
 
-Photoscan wspiera akcelerację GPU (openCL). Wykorzystanie GPU w procesie rekonstrukcji ma sens tylko na w miarę wydajnych, desktowpowych, kartach graficznych. Zintegrowane karty graficzne nie nadają się do tego celu, mogą wręcz spowolnić działąnie programu.
+Photoscan wspiera akcelerację GPU (openCL). Wykorzystanie GPU w procesie rekonstrukcji ma sens tylko na w miarę wydajnych, desktowpowych, kartach graficznych. Zintegrowane karty graficzne nie nadają się do tego celu, mogą wręcz spowolnić działanie programu.
 
 Aby skonfigurować akcelerację GPU, wchodzimy do menu `Tools > Preferences`, do zakładki `OpenCL`
 
 Zaznaczamy karty graficzne. Dla każdej zaznaczonej karty graficznej musimy zmniejszyć liczbę wykorzystywanych rdzeni procesora o 1 (Fig. 1.1).
 
-![alt text](photoscan_001.jpg "Ustawienia OpenCL")
+![alt text](photoscan_01_01.jpg "Ustawienia OpenCL")
 <sup>Fig. 1.1 Ustawienia OpenCL</sup>
 
 
@@ -49,26 +49,38 @@ Celem tego kroku jest wyliczenie pozycji aparatu, dla każdego zdjęcia. Sama ch
 
 Aby rozpocząć kalibrację sceny, dodajemy zdjęcia do przestrzeni roboczej `Workflow > Add Photos` lub 'Workflow > Add Folder'. Następnie Wchodzimy do menu `Workflow > Align Photos` (Fig. 2.1).
 
-![alt text](photoscan_002.jpg "Opcje kalibracji")
+![alt text](photoscan_02_01.jpg "Opcje kalibracji")
 <sup>Fig. 2.1 Opcje kalibracji</sup>
 
 Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screenshocie. Następnie rozwijamy menu `Advanced` i ustawiamy wartość parametru `Point limit`. Im więcej punktów, tym dokładniej jest wyliczona pozycja aparatu dla każdego zdjęcia. W tym przypadku ustawiliśmy 180 000 punktów, im więcej punktów tym dokłądniejsza kalibracja, lecz dłuższe obliczenia. Nie znaczy to że program znajdzie tyle punktów, ile ustawilismy - wszystko zależy od ilości, jakości zdjęć oraz od rozmiaru sceny. Liczba odnalezionych punktów referencyjnych może być więc mniejsza niz zadana wartość (Fig. 2.2).
 
-![alt text](photoscan_003.png "Liczba odnalezionych punktów referencyjnych")
+![alt text](photoscan_02_02.png "Liczba odnalezionych punktów referencyjnych")
 <sup>Fig. 2.2 Liczba odnalezionych punktów referencyjnych</sup>
 
 Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli że możliwa jest dokąłdniejsza kalibracja przy zwiększeniu wartości tego parametru).
 
-## 3. Kalibracja skali
+## 3. Wstępna orientacja sceny
 
-## 4. Kalibracja koordynat
+## 4. Ustalenie zakresu rekonstrukcji
 
-![alt text](photoscan_004a.png "Standardowy system koordynat")
-<sup>Fig. 4.1 Standardowy system koordynat</sup>
+## 5. Zagęszczona chmura punktów
 
-![alt text](photoscan_004b.png "Koordynaty FBX")
-<sup>Fig. 4.2 Koordynaty FBX (osie Z i X zamienione)</sup>
+## 6. Usuwanie artefaktów
 
+## 7. Budowa geometrii modelu
 
+## 8. Budowa tekstury modelu
+
+## 9. Kalibracja skali
+
+## 10. Kalibracja koordynat
+
+![alt text](photoscan_10_01.png "Standardowy system koordynat")
+<sup>Fig. 10.1 Standardowy system koordynat</sup>
+
+![alt text](photoscan_10_02.png "Koordynaty FBX")
+<sup>Fig. 11.2 Koordynaty FBX (osie Z i X zamienione)</sup>
+
+## 11. Eksport
 
 
