@@ -64,14 +64,14 @@ Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiekt
 Po zakonczeniu procesu kalibracji zdjęć otrzymujemy rzadką chmurę punktów - nasz obiekt. Powinniśmy teraz tak obrócić obiekt, aby zgadzała się z grubsza z systemem współrzędnych sceny (Fig. 3.1). Dokładną kalibrację orientacji będziemy przeprowadzać po wygenerowaniu modelu.
 
 ![alt text](photoscan_03_01.png "Rzadka chmura punktów")
-<sup>Fig. 3.1 Orientacja obiektu jest rozbieżna z systemem współrzędnych sceny</sup>
+<sup>Fig. 3.1 Orientacja obiektu rozbieżna z systemem współrzędnych sceny</sup>
 
 Dla większej przejrzystości wyłączamy widoczność kamer (Fig 3.2).
 
 ![alt text](photoscan_03_02.png "Widoczność kamer")
 <sup>Fig. 3.2 Widoczność kamer</sup>
 
-Zmieniamy widok na `Ortographic` ( *menu* `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny ( *menu* `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
+Zmieniamy widok na `Ortographic` ( *menu* `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny ( *menu* `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych (Fig. 3.4).
 
 ![alt text](photoscan_03_03.png "Rotate object")
 <sup>Fig. 3.3 Narzędzie `Rotate Object`</sup>
@@ -91,6 +91,9 @@ Rotate Up | 8
 Rotate Down | 2
 Rotate Left | 4
 Rotate Right | 6
+
+![alt text](photoscan_03_04.png "Rzadka chmura punktów")
+<sup>Fig. 3.4 Orientacja obiektu zgodna z systemem współrzędnych sceny</sup>
 
 ## 4. Ustalenie zakresu rekonstrukcji
 
