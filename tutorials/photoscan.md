@@ -7,7 +7,7 @@ sources:
       title: Oficjalna strona programu Photoscan
     - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
       title: Manual do wersji Standard 1.0
-    - http://ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
+    - http: //ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
       title: Delivering Aligned and Scaled Photoscan Outputs
 page-type: tutorial
 folder: photoscan
