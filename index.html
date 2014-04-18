@@ -2,3 +2,13 @@
 layout: default
 ---
 <p>Strona główna projektu VR Zobten, w przygotowaniu</p>
+
+<h2>Tutoriale</h2>
+
+<ul class="list-unstyled">
+    {% for tutorial in site.pages %}
+    {% if tutorial.page-type == 'tutorial' %}
+    <li><a href="{{site.baseurl}}{{tutorial.url}}">{{tutorial.title}}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
