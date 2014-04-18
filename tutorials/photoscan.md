@@ -9,6 +9,8 @@ sources:
       title: Manual do wersji Standard 1.0
     - url: http://ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
       title: Delivering Aligned and Scaled Photoscan Outputs
+    - url: http://ir-ltd.net/its-your-birthday/
+      title: Agisoft Pro Scripts
 page-type: tutorial
 folder: photoscan
 ---
@@ -111,6 +113,23 @@ Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortograph
 <sup>Fig. 4.3 Zakres rekonstrukcji</sup>
 
 ## 5. Generacja zagęszczonej chmury punktów
+
+Jest to najważniejszy, i najbardziej intensywny obliczeniowo krok, podczas którego uzyskujemy góęstą chmurę punktów, na podstawie której będziemy potem rekonstruować siatkę geometryczną.
+
+Wybieramy z głównego menu komendę `Workflow > Build Dense Cloud`.
+
+![alt text](photoscan_04_03.png "Build Dense Cloud")
+<sup>Fig. 4.3 Build Dense Cloud</sup>
+
+Opcja `Quality` (Fig. 5.1) odpowiada za szczegółowość rekonstrukcji, im wyższa jakość tym dłuższe obliczenia (Fig. 5.2). Każdy krok zminiejsza rozmiar zdjęcia 4x. `Ultra` to romiar oryginalny zdjęcia.
+
+Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni rekonstruowanego obiektu obiektu, Mild - duża, Aggressive - niska (Fig. 5.3). Opcja `Aggressive` przelicza się szybciej.
+
+![alt text](photoscan_05_02.png "Jakość High i Medium")
+<sup>Fig. 5.2 Kolejno, jakość High i Medium</sup>
+
+![alt text](photoscan_05_03.png "Build Dense Cloud")
+<sup>Fig. 5.3 Kolejno, Mild i Aggressive</sup>
 
 ## 6. Usuwanie artefaktów
 
