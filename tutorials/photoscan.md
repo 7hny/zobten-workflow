@@ -52,8 +52,8 @@ Aby rozpocząć kalibrację sceny, dodajemy zdjęcia do przestrzeni roboczej `Wo
 
 Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screenshocie. Następnie rozwijamy menu `Advanced` i ustawiamy wartość parametru `Point limit`. Im więcej punktów, tym dokładniej jest wyliczona pozycja aparatu dla każdego zdjęcia. W tym przypadku ustawiliśmy 180 000 punktów, im więcej punktów tym dokłądniejsza kalibracja, lecz dłuższe obliczenia. Nie znaczy to że program znajdzie tyle punktów, ile ustawilismy - wszystko zależy od ilości, jakości zdjęć oraz od rozmiaru sceny. Liczba odnalezionych punktów referencyjnych może być więc mniejsza niz zadana wartość (Fig. 2.2).
 
-![alt text](photoscan_006.jpg "Liczba odnalezionych punktów referencyjnych")
-<sup>Fig. 2.1 Liczba odnalezionych punktów referencyjnych (lewy/dolny róg)</sup>
+![alt text](photoscan_003.jpg "Liczba odnalezionych punktów referencyjnych")
+<sup>Fig. 2.2 Liczba odnalezionych punktów referencyjnych (lewy/dolny róg)</sup>
 
 Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli że możliwa jest dokąłdniejsza kalibracja przy zwiększeniu wartości tego parametru).
 
