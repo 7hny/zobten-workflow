@@ -11,11 +11,32 @@ page-type: tutorial
 folder: photoscan
 ---
 
-### 1. Konfiguracja
+### 1. Konfiguracja programu
 
-![alt text](test.png "Logo Title Text 1")
-<sup>Fig. 1.1 Test</sup>
+Photoscan wspiera akcelerację GPU (openCL). Wykorzystanie GPU w procesie rekonstrukcji ma sens tylko na w miarę wydajnych, desktowpowych, kartach graficznych. Zintegrowane karty graficzne nie nadają się do tego celu, mogą wręcz spowolnić działąnie programu.
 
-Future Mars explorers may be able to get all the water they need out of the red dirt beneath their boots, a new study suggests.
+Aby skonfigurować akcelerację GPU, wchodzimy do menu `Tools > Preferences`, do zakładki `OpenCL`
 
-NASA’s Mars rover Curiosity has found that surface soil on the Red Planet contains about 2 percent water by weight. That means astronaut pioneers could extract roughly 2 pints (1 liter) of water out of every cubic foot (0.03 cubic meters) of Martian dirt they dig up, said study lead author Laurie Leshin, of Rensselaer Polytechnic Institute in Troy, N.Y.
+![alt text](photoscan_005.jpg "Ustawienia OpenCL")
+<sup>Fig. 1.1 Ustawienia OpenCL</sup>
+
+Zaznaczamy karty graficzne. Dla każdej zaznaczonej karty graficznej musimy zmniejszyć liczbę wykorzystywanych rdzeni procesora o 1.
+
+#### Lista obsługiwanych kart graficznych
+
+NVIDIA |  AMD |
+--- | ---
+Seria Maxwell | Seria R9
+GeForce GTX Titan | Radeon HD 7970
+GeForce GTX 780 | Radeon HD 6970
+GeForce GTX 680 | Radeon HD 6950
+GeForce GTX 580 | Radeon HD 6870
+GeForce GTX 570 | Radeon HD 5870
+GeForce GTX 560 | Radeon HD 5850
+GeForce GTX 480 | Radeon HD 5830
+GeForce GTX 470 |
+GeForce GTX 465 |
+GeForce GTX 285 |
+GeForce GTX 280 |
+
+
