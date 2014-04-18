@@ -43,7 +43,7 @@ GeForce GTX 465 |
 GeForce GTX 285 |
 GeForce GTX 280 |
 
-## 2. Kalibracja
+## 2. Kalibracja zdjęć
 
 Celem tego kroku jest wyliczenie pozycji aparatu, dla każdego zdjęcia. Sama chmura punktów będąca rezultatem tego kroku nie będzie wykorzystana przy rekonstrukcji modelu, służy jedynie do kalibracji sceny.
 
@@ -57,9 +57,41 @@ Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screensh
 ![alt text](photoscan_02_02.png "Liczba odnalezionych punktów referencyjnych")
 <sup>Fig. 2.2 Liczba odnalezionych punktów referencyjnych</sup>
 
-Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli że możliwa jest dokąłdniejsza kalibracja przy zwiększeniu wartości tego parametru).
+Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli możliwa jest dokałdniejsza kalibracja przy zwiększeniu wartości tego parametru).
 
 ## 3. Wstępna orientacja sceny
+
+Po zakonczeniu procesu kalibracji zdjęć otrzymujemy rzadką chmurę punktów - nasz obiekt. Powinniśmy teraz tak obrócić obiekt, aby zgadzała się z grubsza z systemem współrzędnych sceny (Fig. 3.1). Dokładną kalibrację orientacji będziemy przeprowadzać po wygenerowaniu modelu.
+
+![alt text](photoscan_03_01.png "Rzadka chmura punktów")
+<sup>Fig. 3.1 Orientacja obiektu jest rozbieżna z systemem współrzędnych sceny</sup>
+
+Dla większej przejrzystości wyłączamy widoczność kamer (Fig 3.2).
+
+![alt text](photoscan_03_02.png "Widoczność kamer")
+<sup>Fig. 3.3 Widoczność kamer</sup>
+
+Zmieniamy widok na `Ortographic` (_menu_ `View > Perspective/Ortographic`), następnie przełączając się pomiędzy rzutami sceny (_menu_ `View > Predefined Views`) obracamy obiekt przy pomocy narzędzia `Rotate Object` (Fig. 3.2), tak aby jego oriantacja była zgodna z systemem współrzędnych.
+
+![alt text](photoscan_03_03.png "Rotate object")
+<sup>Fig. 3.3 Narzędzie `Rotate Object`</sup>
+
+### Skróty klawiszowe do przełączania pomiędzy widokami
+
+Widok |  Skrót klawiaturowy |
+--- | ---
+Perspective / Ortographic | 5
+Front | 1
+Back | Ctrl + 1
+Right | 3
+Left | Ctrl + 3
+Top | 7
+Bottom | Ctrl + 7
+Rotate Up | 8
+Rotate Down | 2
+Rotate Left | 4
+Rotate Right | 6
+
 
 ## 4. Ustalenie zakresu rekonstrukcji
 
