@@ -66,7 +66,7 @@ Po zakonczeniu procesu kalibracji zdjęć otrzymujemy rzadką chmurę punktów -
 ![alt text](photoscan_03_01.png "Rzadka chmura punktów")
 <sup>Fig. 3.1 Orientacja obiektu rozbieżna z systemem współrzędnych sceny</sup>
 
-Dla większej przejrzystości wyłączamy widoczność kamer (Fig 3.2).
+Dla większej przejrzystości wyłączamy widoczność pozycji zdjęć (kamer) (Fig 3.2).
 
 ![alt text](photoscan_03_02.png "Widoczność kamer")
 <sup>Fig. 3.2 Widoczność kamer</sup>
@@ -76,7 +76,10 @@ Zmieniamy widok na `Ortographic` ( *menu* `View > Perspective/Ortographic`), nas
 ![alt text](photoscan_03_03.png "Rotate object")
 <sup>Fig. 3.3 Narzędzie `Rotate Object`</sup>
 
-### Skróty klawiszowe do przełączania pomiędzy widokami
+![alt text](photoscan_03_04.png "Rzadka chmura punktów")
+<sup>Fig. 3.4 Orientacja obiektu zgodna z systemem współrzędnych sceny</sup>
+
+### Skróty klawiszowe do zmiany widoków
 
 Widok |  Skrót klawiaturowy |
 --- | ---
@@ -92,18 +95,28 @@ Rotate Down | 2
 Rotate Left | 4
 Rotate Right | 6
 
-![alt text](photoscan_03_04.png "Rzadka chmura punktów")
-<sup>Fig. 3.4 Orientacja obiektu zgodna z systemem współrzędnych sceny</sup>
-
 ## 4. Ustalenie zakresu rekonstrukcji
 
-## 5. Zagęszczona chmura punktów
+Interesujący nasz zakres rekonstrukcji ustalamy przy pomocy narzędzi `Resize Region` oraz `Rotate Region` (Fig. 4.1).
+
+![alt text](photoscan_04_01.png "Region tools")
+<sup>Fig. 4.1 Narzędzia do zmiany zakresy rekonstrukcji</sup>
+
+Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortographic) widokami, podobnie jak w poprzednim kroku. Zawężenie akrsu rekonstrukcji zminiejsza liczbę artefaktó oraz przyśpiesza obliczenia (Fig. 4.3)
+
+![alt text](photoscan_04_02.png "Domyślny zakres rekonstrukcji")
+<sup>Fig. 4.2 Domyślny zakres rekonstrukcji</sup>
+
+![alt text](photoscan_04_03.png "Zakres rekonstrukcji")
+<sup>Fig. 4.3 Zakres rekonstrukcji</sup>
+
+## 5. Generacja Zagęszczonej chmury punktów
 
 ## 6. Usuwanie artefaktów
 
-## 7. Budowa geometrii modelu
+## 7. Rekonstrukcja geometrii modelu
 
-## 8. Budowa tekstury modelu
+## 8. Rekonstrukcja tekstury modelu
 
 ## 9. Kalibracja skali
 
