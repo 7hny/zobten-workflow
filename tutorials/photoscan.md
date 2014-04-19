@@ -63,7 +63,7 @@ Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screensh
 
 Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli możliwa jest dokałdniejsza kalibracja przy zwiększeniu wartości tego parametru).
 
-### Określanie jakości materiału zdjęciowego - krok opcjonalny
+### Wykluczanie zdjęć o niskiej jakości ( _krok opcjonalny_ )
 
 Jakośc obrazu (relatywna ostrość danego zdjęcia) może wpłynąć na jakość rekonstruowanego obiektu. W celu oszacowania jakości zdjęć, po dokonaniu kalibracji otwieramy panel `Photos` (menu `View > Panes > Photos`). Następnie zaznaczamy wszystkie zdjęcia, otwieramy menu kontekstowe PPM i Wybieramy opcje `Estimate Image Quality` (Fig 2.3).
 
@@ -130,6 +130,9 @@ Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortograph
 
 Jest to najważniejszy, i najbardziej intensywny obliczeniowo krok, podczas którego uzyskujemy góęstą chmurę punktów, na podstawie której będziemy potem rekonstruować siatkę geometryczną.
 
+> **Opcjonalne czynności**
+> Możemy stworzyć maski dla każdego zdjęcia określające zarys obiektu. Przyśpieszy to obliczenia oraz wyeliminuje zbędne punkty, które mogły by przyczynić się do powstawania artefaktów. Tworzenie masek opisane jaest w **apendiksie**.
+
 Wybieramy z głównego menu komendę `Workflow > Build Dense Cloud`.
 
 ![alt text](photoscan_05_01.png "Build Dense Cloud")
@@ -145,12 +148,14 @@ Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni re
 ![alt text](photoscan_05_03.jpg "Build Dense Cloud")
 <sup>Fig. 5.3 Kolejno, Aggressive i Mild</sup>
 
-Po zakończeniu obliczeń przełączamy się na widok zagęszczonej chmury punktów (Fig.5.4).
+Po zakończeniu obliczeń przełączamy się na jeden z widoków zagęszczonej chmury punktów (Fig.5.4).
 
 ![alt text](photoscan_05_04.png "Zagęszczona chmura punktów")
 <sup>Fig. 5.4 Zagęszczona chmura punktów</sup>
 
 ## 6. Usuwanie artefaktów
+
+W tym kroku usuwamy problematyczne punkty, które mogą przyczynić się do powstania srtefaktów rekonstrukcji geometrii oraz tekstury obiektu.
 
 ## 7. Rekonstrukcja geometrii modelu
 
