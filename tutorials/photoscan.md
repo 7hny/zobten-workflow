@@ -146,6 +146,7 @@ Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni re
 <sup>Fig. 5.2 Kolejno, jakość Medium i High</sup>
 
 ![alt text](photoscan_05_03.jpg "Build Dense Cloud")
+<a href="photoscan_05_03.jpg" target="_blank">![alt text](photoscan_05_03.jpg "Build Dense Cloud")</a>
 <sup>Fig. 5.3 Kolejno, Aggressive i Mild</sup>
 
 Po zakończeniu obliczeń przełączamy się na jeden z widoków zagęszczonej chmury punktów (Fig.5.4).
