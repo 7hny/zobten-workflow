@@ -145,6 +145,11 @@ Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni re
 ![alt text](photoscan_05_03.jpg "Build Dense Cloud")
 <sup>Fig. 5.3 Kolejno, Aggressive i Mild</sup>
 
+Po zakończeniu obliczeń przełączamy się na widok zagęszczonej chmury punktów (Fig.5.4).
+
+![alt text](photoscan_05_04.png "Zagęszczona chmura punktów")
+<sup>Fig. 5.4 Zagęszczona chmura punktów</sup>
+
 ## 6. Usuwanie artefaktów
 
 ## 7. Rekonstrukcja geometrii modelu
