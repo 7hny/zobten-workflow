@@ -155,7 +155,12 @@ Po zakończeniu obliczeń przełączamy się na jeden z widoków zagęszczonej c
 
 ## 6. Usuwanie artefaktów
 
-W tym kroku usuwamy problematyczne punkty, które mogą przyczynić się do powstania srtefaktów rekonstrukcji geometrii oraz tekstury obiektu.
+> **Uwaga** Jeżeli tworzyliśmy maski w poprzednim kroku, możemy pominąć ten krok.
+
+W tym kroku usuwamy problematyczne punkty, które mogą przyczynić się do powstania artefaktów rekonstrukcji geometrii oraz tekstury obiektu. Używając narzędzi selekcji (Fig. 6.1), zaznaczamy problematyczne / niepożądane strefy (zaznaczenia dodajemy przy wciśniętym klawiszu `CTRL`) i usuwamy je klawiszem `DEL`.
+
+![alt text](photoscan_06_01.png "Selekcja punktów")
+<sup>Fig. 6.1 Selekcja punktów</sup>
 
 ## 7. Rekonstrukcja geometrii modelu
 
