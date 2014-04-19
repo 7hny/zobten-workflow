@@ -130,7 +130,7 @@ Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortograph
 
 Jest to najważniejszy, i najbardziej intensywny obliczeniowo krok, podczas którego uzyskujemy góęstą chmurę punktów, na podstawie której będziemy potem rekonstruować siatkę geometryczną.
 
-> **Opcjonalne czynności**
+> **Opcjonalne czynności**  
 > Możemy stworzyć maski dla każdego zdjęcia określające zarys obiektu. Przyśpieszy to obliczenia oraz wyeliminuje zbędne punkty, które mogły by przyczynić się do powstawania artefaktów. Tworzenie masek opisane jaest w **apendiksie**.
 
 Wybieramy z głównego menu komendę `Workflow > Build Dense Cloud`.
@@ -155,7 +155,8 @@ Po zakończeniu obliczeń przełączamy się na jeden z widoków zagęszczonej c
 
 ## 6. Usuwanie artefaktów
 
-> **Uwaga** Jeżeli tworzyliśmy maski w poprzednim kroku, możemy pominąć ten krok.
+> **Uwaga**  
+> Jeżeli tworzyliśmy maski w poprzednim kroku, możemy pominąć ten krok.
 
 W tym kroku usuwamy problematyczne punkty, które mogą przyczynić się do powstania artefaktów rekonstrukcji geometrii oraz tekstury obiektu. Używając narzędzi selekcji (Fig. 6.1), zaznaczamy problematyczne / niepożądane strefy (zaznaczenia dodajemy przy wciśniętym klawiszu `CTRL`) i usuwamy je klawiszem `DEL`.
 
@@ -177,6 +178,8 @@ W tym kroku usuwamy problematyczne punkty, które mogą przyczynić się do pows
 <sup>Fig. 11.2 Koordynaty FBX (osie Z i X zamienione)</sup>
 
 ## 11. Eksport
+
+### Decimate
 
 ## Apendiks
 
