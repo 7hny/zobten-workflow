@@ -7,6 +7,8 @@ sources:
       title: Oficjalna strona programu Photoscan
     - url: http://www.agisoft.ru/pdf/photoscan_1_0_en.pdf
       title: Manual do wersji Standard 1.0
+    - url: http://www.agisoft.ru/pdf/photoscan_pro_1_0_en.pdf
+      title: Manual do wersji Pro 1.0
     - url: http://ir-ltd.net/delivering-aligned-and-scaled-photoscan-outputs/
       title: Delivering Aligned and Scaled Photoscan Outputs
     - url: http://ir-ltd.net/its-your-birthday/
@@ -60,6 +62,18 @@ Tu ustawiamy parametry tego kroku - `Accuracy` i `Preselection`, jak na screensh
 <sup>Fig. 2.2 Liczba odnalezionych punktów referencyjnych</sup>
 
 Górną granicą rozsądku jest ok 500 000 punktów dla większych scen / obiektów z dużą ilością zdjęć. Ustalenie wartości `Point limit` na poziomie ok 180 000 wydaje być się dobrym punktem startowym. Scenę zawsze można przeliczyć, jeżeli okaże się że program odnalazł liczbę punktów równą wartości tego parametru (czyli możliwa jest dokałdniejsza kalibracja przy zwiększeniu wartości tego parametru).
+
+### Określanie jakości materiału zdjęciowego - krok opcjonalny
+
+Jakośc obrazu (relatywna ostrość danego zdjęcia) może wpłynąć na jakość rekonstruowanego obiektu. W celu oszacowania jakości zdjęć, po dokonaniu kalibracji otwieramy panel `Photos` (menu `View > Panes > Photos`). Następnie zaznaczamy wszystkie zdjęcia, otwieramy menu kontekstowe PPM i Wybieramy opcje `Estimate Image Quality` (Fig 2.3).
+
+![alt text](photoscan_02_03.png "Szacowanie jakości zdjęć")
+<sup>Fig. 2.3 Szacowanie jakości zdjęć</sup>
+
+Twórcy programu zalecają wykluczenie zdjęć o jakości poniżej `0.5` W tym celu zaznaczamy (CTRL + click) zdjęcia o jakości poniżej `0.5` i klikamy ikonkę `Disable Cameras` (Fig 2.4)
+
+![alt text](photoscan_02_04.png "Oszacowana jakość zdjęć")
+<sup>Fig. 2.4 Oszacowana jakość zdjęć</sup>
 
 ## 3. Wstępna orientacja sceny
 
@@ -126,10 +140,10 @@ Opcja `Quality` (Fig. 5.1) odpowiada za szczegółowość rekonstrukcji, im wyż
 Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni rekonstruowanego obiektu obiektu, Mild - duża, Aggressive - niska (Fig. 5.3). Opcja `Aggressive` przelicza się szybciej.
 
 ![alt text](photoscan_05_02.jpg "Jakość High i Medium")
-<sup>Fig. 5.2 Kolejno, jakość High i Medium</sup>
+<sup>Fig. 5.2 Kolejno, jakość Medium i High</sup>
 
 ![alt text](photoscan_05_03.jpg "Build Dense Cloud")
-<sup>Fig. 5.3 Kolejno, Mild i Aggressive</sup>
+<sup>Fig. 5.3 Kolejno, Aggressive i Mild</sup>
 
 ## 6. Usuwanie artefaktów
 
@@ -148,5 +162,11 @@ Opcja `Depth filtering` (Fig. 5.1) odpowiada za szczegółowość powierzchni re
 <sup>Fig. 11.2 Koordynaty FBX (osie Z i X zamienione)</sup>
 
 ## 11. Eksport
+
+## Apendiks
+
+### Jak fotografować
+
+### Maskowanie zdjęć
 
 
