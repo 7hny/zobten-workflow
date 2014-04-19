@@ -130,7 +130,7 @@ Przy ustalaniu zakresu rekonstrukcji, posługujemy się ortogonalnymi (Ortograph
 
 Jest to najważniejszy, i najbardziej intensywny obliczeniowo krok, podczas którego uzyskujemy góęstą chmurę punktów, na podstawie której będziemy potem rekonstruować siatkę geometryczną.
 
-> #### Opcjonalne czynności
+> **Opcjonalne czynności**
 > Możemy stworzyć maski dla każdego zdjęcia określające zarys obiektu. Przyśpieszy to obliczenia oraz wyeliminuje zbędne punkty, które mogły by przyczynić się do powstawania artefaktów. Tworzenie masek opisane jaest w **apendiksie**.
 
 Wybieramy z głównego menu komendę `Workflow > Build Dense Cloud`.
