@@ -275,43 +275,25 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 ### Jak fotografować
 
 * Use a digital camera with reasonably high resolution (5 MPix or more).
-* Avoid ultra-wide angle and fish-eye lenses. The best choice is 50 mm focal length (35 mm film
-equivalent) lenses. It is allowed to vary from 20 to 80 mm.
-* Fixed lenses are preferred. If zoom lenses are used - focal length should be set either to maximal or
-minimal value.
-Using RAW data losslessly converted to the TIFF files is preferred, since JPG compression induces
-unwanted noise to the images.
+* Avoid ultra-wide angle and fish-eye lenses. The best choice is 50 mm focal length (35 mm film equivalent) lenses. It is allowed to vary from 20 to 80 mm.
+* Fixed lenses are preferred. If zoom lenses are used - focal length should be set either to maximal or minimal value. Using RAW data losslessly converted to the TIFF files is preferred, since JPG compression induces unwanted noise to the images.
 * Take images at maximal possible resolution.
 * ISO should be set to the lowest value, otherwise high ISO values will induce additional noise to images.
-* Aperture value should be high enough to result in sufficient focal depth: it is important to capture sharp,
-not blurred photos.
-* Shutter speed should not be too fast, otherwise blur can occur due to slight movements.
-Avoid not textured, shiny, mirror or transparent objects.
+* Aperture value should be high enough to result in sufficient focal depth: it is important to capture sharp, not blurred photos.
+* Shutter speed should not be too fast, otherwise blur can occur due to slight movements. Avoid not textured, shiny, mirror or transparent objects.
 * If still have to, shoot shiny objects under a cloudy sky.
 * Avoid unwanted foregrounds.
 * Avoid moving objects within the scene to be reconstructed.
-* Avoid absolutely flat objects or scenes.
-PhotoScan operates with the original images. So do not crop or geometrically transform, i.e. resize or
-rotate, the images.
+* Avoid absolutely flat objects or scenes. PhotoScan operates with the original images. So do not crop or geometrically transform, i.e. resize or rotate, the images.
 
 * More photos is better than not enough.
-* Number of "blind-zones" should be minimized since PhotoScan is able to reconstruct only geometry
-visible from at least two cameras.
-In case of aerial photography the overlap requirement can be put in the following figures: 60% of side
-overlap + 80% of forward overlap.
-* Each photo should effectively use the frame size: object of interest should take up the maximum area.
-In some cases portrait camera orientation should be used.
-* Do not try to place full object in the image frame, if some parts are missing it is not a problem whereas
-these parts appear on other images.
-* Good lighting is required to achieve better quality of the results, yet blinks should be avoided. It is
-recommended to remove sources of light from camera fields of view.
-* If you are planning to carry out any measurements based on the reconstructed model, do not forget to
-locate at least two markers with a known distance between them on the object. Alternatively, you could
-place a ruler within the shooting area.
-* In case of aerial photography and demand to fulfil georeferencing task, even spread of ground control
-points (GCPs) (at least 10 across the area to be reconstructed) is required to achieve results of highest
-quality, both in terms of the geometrical precision and georeferencing accuracy. Yet, Agisoft PhotoScan
-is able to complete the reconstruction and georeferencing tasks without GCPs, too.
+* Number of "blind-zones" should be minimized since PhotoScan is able to reconstruct only geometry visible from at least two cameras.
+* In case of aerial photography the overlap requirement can be put in the following figures: 60% of side overlap + 80% of forward overlap.
+* Each photo should effectively use the frame size: object of interest should take up the maximum area. In some cases portrait camera orientation should be used.
+* Do not try to place full object in the image frame, if some parts are missing it is not a problem whereas these parts appear on other images.
+* Good lighting is required to achieve better quality of the results, yet blinks should be avoided. It is recommended to remove sources of light from camera fields of view.
+* If you are planning to carry out any measurements based on the reconstructed model, do not forget to locate at least two markers with a known distance between them on the object. Alternatively, you could place a ruler within the shooting area.
+* In case of aerial photography and demand to fulfil georeferencing task, even spread of ground control points (GCPs) (at least 10 across the area to be reconstructed) is required to achieve results of highest quality, both in terms of the geometrical precision and georeferencing accuracy. Yet, Agisoft PhotoScan is able to complete the reconstruction and georeferencing tasks without GCPs, too.
 
 ### Maskowanie zdjęć
 
