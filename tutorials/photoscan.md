@@ -246,9 +246,6 @@ Następnie ustawiamy widok na ortograficzny i używając ortograficznych rzutów
 ![Standardowy system koordynat](photoscan_10_02.png "Standardowy system koordynat")
 <sup>Fig. 10.2 Standardowy system koordynat</sup>
 
-![Standardowy system koordynat](photoscan_10_02.png "Standardowy system koordynat")
-<sup>Fig. 10.2 Standardowy system koordynat</sup>
-
 Jeżeli eksportujemy do formatu FBX, czerwona płąszczyzna powinna znajdować się u góry modelu (Fig. 10.3).
 
 ![Koordynaty FBX](photoscan_10_03.png "Koordynaty FBX")
@@ -259,7 +256,7 @@ Następnie uruchamiamy skrypt z menu `Custom menu > Cordinates to bounding box +
 Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny. Punkt ten znajduje się w centrum regionu zakresu. Aby dokładniej określić położenie punktu zero, możemy pomniejszyć region zakresu (Fig. 10.1, 10.4).
 
 ![Określanie punktu zero](photoscan_10_04.png "Określanie punktu zero")
-<sup>Fig. 10.2 Określanie punktu zero</sup>
+<sup>Fig. 10.4 Określanie punktu zero</sup>
 
 > **UWAGA!**   
 > Jeżeli przy obracamy również sam model, zmienia się przy tym też orientacja regionu zakresu. Po rotacji modelu należu ponownnie zorientować bounding box, a następnie uruchomić skrypt.
