@@ -266,7 +266,6 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 * Decimate
 * FBX
 * Obj
-
 * 3DS Max
 * zBrush
 
@@ -285,7 +284,6 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 * Avoid unwanted foregrounds.
 * Avoid moving objects within the scene to be reconstructed.
 * Avoid absolutely flat objects or scenes. PhotoScan operates with the original images. So do not crop or geometrically transform, i.e. resize or rotate, the images.
-
 * More photos is better than not enough.
 * Number of "blind-zones" should be minimized since PhotoScan is able to reconstruct only geometry visible from at least two cameras.
 * In case of aerial photography the overlap requirement can be put in the following figures: 60% of side overlap + 80% of forward overlap.
@@ -298,5 +296,3 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 ### Maskowanie zdjęć
 
 [Maskowanie i rekonstrukcja - video tutorial](https://www.youtube.com/watch?v=2_insfYWPkA)
-
-
