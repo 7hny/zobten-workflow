@@ -224,28 +224,100 @@ Podziałka skali pojawiła się w panelu `Scale bars` Wpisujemy odległość ref
 Po wyeksportowaniu modelu do zewnętrzengo programu (w parametrach importu domyślną jednostką były **centymetry**), widzimy że skala modelu jest poprawna (Fig. 9.5).
 
 ![Wyeksportowany model"](photoscan_09_05.png "Wyeksportowany model")
-<sup>Fig. 9.5 Wyeksportowany model"</sup>
+<sup>Fig. 9.5 Wyeksportowany model</sup>
 
 ## 10. Kalibracja koordynat (wersja PRO)
 
-![Standardowy system koordynat](photoscan_10_01.png "Standardowy system koordynat")
-<sup>Fig. 10.1 Standardowy system koordynat</sup>
+Ostatnim krokiem w procesie kalibracji sceny, jest kalibracja koordynat. Poprawnia orientacja obiektu względem systemu koordynat ułatwia póżniejszą pracę przy optymalizacji modelu w zewnętrznych programach.
 
-![Koordynaty FBX](photoscan_10_02.png "Koordynaty FBX")
-<sup>Fig. 11.2 Koordynaty FBX (osie Z i X zamienione)</sup>
+Przy kalibracji koordynat bardzo pomocny jest autorski skrypt, stworzony przez studio Inifinite Realities.
+
+> Photoscan obsługuje autorskie skrypty tylko w wersji Pro.
+
+[Skrypty Agisoft Pro](http://www.ir-ltd.net/uploads/posts/Agisoft-Photoscan-PRO-scripts.zip)
+
+Po ściągnięciu skryptów, kopiujemy zawartość archiwum do folderu `C:\Users\[username]\AppData\Local\Agisoft\PhotoScan Pro\scripts`. Nasatępnie restartujemy program. Skrypty uruchamiamy z menu `Custom Scripts`.
+
+Następnie ustawiamy widok na ortograficzny i używając ortograficznych rzutów opisanych w 3 kroku (Front, Top, Right, etc.), obracamy region zakrezu (`Bounding box`, Fig. 10.1), tak aby wcięcia znajdowały się po prawej stronie, a czerwona płaszczyzna z tyłu modelu (Fig. 10.2). 
+
+![Custom scripts](photoscan_10_01.png "Custom scripts")
+<sup>Fig. 10.2 Custom scripts</sup>
+
+![Standardowy system koordynat](photoscan_10_02.png "Standardowy system koordynat")
+<sup>Fig. 10.2 Standardowy system koordynat</sup>
+
+![Standardowy system koordynat](photoscan_10_02.png "Standardowy system koordynat")
+<sup>Fig. 10.2 Standardowy system koordynat</sup>
+
+Jeżeli eksportujemy do formatu FBX, czerwona płąszczyzna powinna znajdować się u góry modelu (Fig. 10.3).
+
+![Koordynaty FBX](photoscan_10_03.png "Koordynaty FBX")
+<sup>Fig. 10.3 Koordynaty FBX (osie Z i X zamienione)</sup>
+
+Następnie uruchamiamy skrypt z menu `Custom menu > Cordinates to bounding box + rotate`.
+
+Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny. Punkt ten znajduje się w centrum regionu zakresu. Aby dokładniej określić położenie punktu zero, możemy pomniejszyć region zakresu (Fig. 10.1, 10.4).
+
+![Określanie punktu zero](photoscan_10_04.png "Określanie punktu zero")
+<sup>Fig. 10.2 Określanie punktu zero</sup>
+
+> **UWAGA!**   
+> Jeżeli przy obracamy również sam model, zmienia się przy tym też orientacja regionu zakresu. Po rotacji modelu należu ponownnie zorientować bounding box, a następnie uruchomić skrypt.
 
 ## 11. Eksport
 
-### Decimate
+* Decimate
+* FBX
+* Obj
 
-### FBX
-
-### Obj
+* 3DS Max
+* zBrush
 
 ## Apendiks
 
 ### Jak fotografować
 
+* Use a digital camera with reasonably high resolution (5 MPix or more).
+* Avoid ultra-wide angle and fish-eye lenses. The best choice is 50 mm focal length (35 mm film
+equivalent) lenses. It is allowed to vary from 20 to 80 mm.
+* Fixed lenses are preferred. If zoom lenses are used - focal length should be set either to maximal or
+minimal value.
+Using RAW data losslessly converted to the TIFF files is preferred, since JPG compression induces
+unwanted noise to the images.
+* Take images at maximal possible resolution.
+* ISO should be set to the lowest value, otherwise high ISO values will induce additional noise to images.
+* Aperture value should be high enough to result in sufficient focal depth: it is important to capture sharp,
+not blurred photos.
+* Shutter speed should not be too fast, otherwise blur can occur due to slight movements.
+Avoid not textured, shiny, mirror or transparent objects.
+* If still have to, shoot shiny objects under a cloudy sky.
+* Avoid unwanted foregrounds.
+* Avoid moving objects within the scene to be reconstructed.
+* Avoid absolutely flat objects or scenes.
+PhotoScan operates with the original images. So do not crop or geometrically transform, i.e. resize or
+rotate, the images.
+
+* More photos is better than not enough.
+* Number of "blind-zones" should be minimized since PhotoScan is able to reconstruct only geometry
+visible from at least two cameras.
+In case of aerial photography the overlap requirement can be put in the following figures: 60% of side
+overlap + 80% of forward overlap.
+* Each photo should effectively use the frame size: object of interest should take up the maximum area.
+In some cases portrait camera orientation should be used.
+* Do not try to place full object in the image frame, if some parts are missing it is not a problem whereas
+these parts appear on other images.
+* Good lighting is required to achieve better quality of the results, yet blinks should be avoided. It is
+recommended to remove sources of light from camera fields of view.
+* If you are planning to carry out any measurements based on the reconstructed model, do not forget to
+locate at least two markers with a known distance between them on the object. Alternatively, you could
+place a ruler within the shooting area.
+* In case of aerial photography and demand to fulfil georeferencing task, even spread of ground control
+points (GCPs) (at least 10 across the area to be reconstructed) is required to achieve results of highest
+quality, both in terms of the geometrical precision and georeferencing accuracy. Yet, Agisoft PhotoScan
+is able to complete the reconstruction and georeferencing tasks without GCPs, too.
+
 ### Maskowanie zdjęć
+
+[Maskowanie i rekonstrukcja - video tutorial](https://www.youtube.com/watch?v=2_insfYWPkA)
 
 
