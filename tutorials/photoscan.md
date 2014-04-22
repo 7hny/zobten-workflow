@@ -177,14 +177,30 @@ Aby wygenerować geometrię wchodzimy do menu `Workflow > Build Mesh`. Tu wybier
 
 Po wygenerowaniu siatki, przełączamy się do jednego z widoków siatki, aby zobaczyć rezultat rekonstrukcji (Fig 7.2).
 
-![Menu Build Mesh](photoscan_07_01.png "Zrekonstruowana geometria")
-<sup>Fig. 7.1 Zrekonstruowana geometria</sup>
+![Zrekonstruowana geometria](photoscan_07_02.png "Zrekonstruowana geometria")
+<sup>Fig. 7.2 Zrekonstruowana geometria</sup>
 
-## 8. Kalibracja skali
+## 8. Rekonstrukcja tekstury modelu
 
-## 9. Kalibracja koordynat
+W tym kroku dokonujemy projekcji tekstury z materiału zdjęciowego na zrekostruowany model. W tym celu wchodzimy do menu `Workflow > Build Texture`. Rozdzielczość tekstury ustawiamy na `8192` (Fig. 8.1). Jeżeli pracujemy z wyjątkowo dużym modelem, możemy wygenerować więcej niż jeden arkusz tekstur, w celu zachowania należytej rozdzielczości detali (Fig. 8.1).
 
-## 10. Rekonstrukcja tekstury modelu
+![Menu Build Texture](photoscan_08_01.png "Menu Build Texture")
+<sup>Fig. 8.1 Menu `Build Texture`</sup>
+
+Po wygenerowaniu tekstury, przełączamy się do widoku tekstury, aby zobaczyć rezultat rekonstrukcji (Fig 8.2).
+
+![Zrekonstruowana tekstura](photoscan_08_02.png "Zrekonstruowana tekstura")
+<sup>Fig. 8.2 Zrekonstruowana tekstura</sup>
+
+## 9. Kalibracja skali (wersja PRO)
+
+Po zrekonstruowaniu modelu należy dokonać kalibracji skali. Umożliwi to zachowanie rzeczywistej skali (wielkości modelu).
+
+> Zachowanie skali jest konieczne - po optymalizacji w zewnętrznym programie (3DS Max, zBrush), zoptymalizowany model będzie musiał być ponownie zaimportowany do Photoscana w celu ponownej projekcji tekstury. Jeżeli skala nie będzie sie zgadzać (bo np. zmodyfikowaliśmy ją w zewnętrznym programie), poprawna projekcja tekstury nie będzie możliwa.
+
+
+
+## 10. Kalibracja koordynat (wersja PRO)
 
 ![Standardowy system koordynat](photoscan_10_01.png "Standardowy system koordynat")
 <sup>Fig. 10.1 Standardowy system koordynat</sup>
@@ -195,6 +211,10 @@ Po wygenerowaniu siatki, przełączamy się do jednego z widoków siatki, aby zo
 ## 11. Eksport
 
 ### Decimate
+
+### FBX
+
+### Obj
 
 ## Apendiks
 
