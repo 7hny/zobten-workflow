@@ -165,11 +165,26 @@ W tym kroku usuwamy problematyczne punkty, które mogą przyczynić się do pows
 
 ## 7. Rekonstrukcja geometrii modelu
 
-## 8. Rekonstrukcja tekstury modelu
+> **Opcjonalne czynności**  
+> W tym kroku możemy również stworzyć maski, jeżeli nie utworzyliśmy ich poprzednio. Maski przyczynią się do zmniejszenia ilośći artefaktów rekonstruowanej geometrii. Tworzenie masek opisane jaest w **apendiksie**.
 
-## 9. Kalibracja skali
+Aby wygenerować geometrię wchodzimy do menu `Workflow > Build Mesh`. Tu wybieramy zagęszczoną chmyrę punktów jako źródło danych, z maksymalną liczbą poligonów (Fig. 7.1).
 
-## 10. Kalibracja koordynat
+![Menu Build Mesh](photoscan_07_01.png "Menu Build Mesh")
+<sup>Fig. 7.1 Menu `Build Mesh`</sup>
+
+> Istnieje możliwość wygenerowania geometrii na podstawie chmury punktó referencyjnych wygenerowanej w kroku **2** ( `Sourde data > Sparse cloud` ). Może to być przydatne przy testowaniu masek, jakości generowanej tekstury, kallibracji koordynat. Jednak model wygenerowany w ten sposób nie nadaje siędo celów produkcyjnych.
+
+Po wygenerowaniu siatki, przełączamy się do jednego z widoków siatki, aby zobaczyć rezultat rekonstrukcji (Fig 7.2).
+
+![Menu Build Mesh](photoscan_07_01.png "Zrekonstruowana geometria")
+<sup>Fig. 7.1 Zrekonstruowana geometria</sup>
+
+## 8. Kalibracja skali
+
+## 9. Kalibracja koordynat
+
+## 10. Rekonstrukcja tekstury modelu
 
 ![Standardowy system koordynat](photoscan_10_01.png "Standardowy system koordynat")
 <sup>Fig. 10.1 Standardowy system koordynat</sup>
