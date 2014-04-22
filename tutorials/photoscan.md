@@ -218,8 +218,13 @@ Drugi punkt referencyjny tworzymy w analogiczny sposób. Następnie tworzymy pod
 
 Podziałka skali pojawiła się w panelu `Scale bars` Wpisujemy odległość referencyjną **w centymetrach** (Fig. 9.4). Następnie klikamy ikonkę `Update` (Fig. 9.4). Porces kalibracji skali został zakończony!.
 
-![Pomiar referencyjny"](photoscan_09_03.png "Pomiar referencyjny")
-<sup>Fig. 9.3 Pomiar referencyjny i kalibracja"</sup>
+![Pomiar referencyjny"](photoscan_09_04.png "Pomiar referencyjny")
+<sup>Fig. 9.4 Pomiar referencyjny i kalibracja"</sup>
+
+Po wyeksportowaniu modelu do zewnętrzengo programu (w parametrach importu domyślną jednostką były **centymetry**), widzimy że skala modelu jest poprawna (Fig. 9.5).
+
+![Wyeksportowany model"](photoscan_09_05.png "Wyeksportowany model")
+<sup>Fig. 9.5 Wyeksportowany model"</sup>
 
 ## 10. Kalibracja koordynat (wersja PRO)
 
