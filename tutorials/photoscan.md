@@ -198,7 +198,28 @@ Po zrekonstruowaniu modelu należy dokonać kalibracji skali. Umożliwi to zacho
 
 > Zachowanie skali jest konieczne - po optymalizacji w zewnętrznym programie (3DS Max, zBrush), zoptymalizowany model będzie musiał być ponownie zaimportowany do Photoscana w celu ponownej projekcji tekstury. Jeżeli skala nie będzie sie zgadzać (bo np. zmodyfikowaliśmy ją w zewnętrznym programie), poprawna projekcja tekstury nie będzie możliwa.
 
+Aby skalibrować scenę musimy dodać przynajmniej 2 punkty referencyjne, które są widoczne an przynajmniej 2 zdjęciach.
 
+> **UWAGA!**
+> W trakcie robienia zdjęć powinniśmy umieścić **znacznik skali** na fotografowanym obiekcie. Znacznikiem slaki moze być zwykłą linijka, ew. możemy zmierzyć odległość pomiędzy dwoma charakterystycznymi punktami na scenie. W obu przypadkach chodzi o pomiar z **milimetrową dokłądnością**.
+
+Otwieramy panel `View > Panes > Ground Control`. Mamy 2 możliwości mozemy dodać punkty referencyjne na zdjęciach (sekcja cameras, Fig. 9.1) lub bezpośrednio na obiekcie. Najpierw uaktywniamy widok punktó przyciskiem `Show Markers` (Fig. 9.1). Następnie dodajemy punkt, klikając prawym przyciskiem myszy (PPM) w wybranym miejscu z którego pobieraliśmy wymiary (Fig. 9.1). Wybieramy opcjie `Add marker` z menu kontekstowego. Powtarzamy czynnośćdla drugiego punktu referencyjnego. Rozmieszczenie punktów można dostosować bezpośrednio w widoku zdjęcia (Fig. 9.1).
+
+![Create Markers"](photoscan_09_01.png "Create Markers")
+<sup>Fig. 9.1 Tworzenie punktu referencyjnego"</sup>
+
+Drugi punkt referencyjny tworzymy w analogiczny sposób. Następnie tworzymy podziałkę skali (`Scale bar`) zaznaczając oba markery (SHIFT + Click) w panelu `Markers` (Fig. 9.2), i klikamy PPM wybierając opcję `Create scale bar` (Fig. 9.3).
+ 
+![Tworzenie podziałki"](photoscan_09_02.png "Tworzenie podziałki")
+<sup>Fig. 9.2 Tworzenie podziałki"</sup>
+
+![Tworzenie podziałki"](photoscan_09_03.png "Tworzenie podziałki")
+<sup>Fig. 9.3 Tworzenie podziałki c.d."</sup>
+
+Podziałka skali pojawiła się w panelu `Scale bars` Wpisujemy odległość referencyjną **w centymetrach** (Fig. 9.4). Następnie klikamy ikonkę `Update` (Fig. 9.4). Porces kalibracji skali został zakończony!.
+
+![Pomiar referencyjny"](photoscan_09_03.png "Pomiar referencyjny")
+<sup>Fig. 9.3 Pomiar referencyjny i kalibracja"</sup>
 
 ## 10. Kalibracja koordynat (wersja PRO)
 
