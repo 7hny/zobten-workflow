@@ -273,6 +273,7 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 
 ### Jak fotografować
 
+* **Zdjęcia muszą zawierać znaczniki skali, ew. pomiary referencyjne w oparciu o charakterystyczne punkty, muszą być dokonane w trakcie sesji.**
 * Use a digital camera with reasonably high resolution (5 MPix or more).
 * Avoid ultra-wide angle and fish-eye lenses. The best choice is 50 mm focal length (35 mm film equivalent) lenses. It is allowed to vary from 20 to 80 mm.
 * Fixed lenses are preferred. If zoom lenses are used - focal length should be set either to maximal or minimal value. Using RAW data losslessly converted to the TIFF files is preferred, since JPG compression induces unwanted noise to the images.
