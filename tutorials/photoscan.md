@@ -200,7 +200,7 @@ Po zrekonstruowaniu modelu należy dokonać kalibracji skali. Umożliwi to zacho
 
 Aby skalibrować scenę musimy dodać przynajmniej 2 punkty referencyjne, które są widoczne an przynajmniej 2 zdjęciach.
 
-> **UWAGA!**
+> **UWAGA!**   
 > W trakcie robienia zdjęć powinniśmy umieścić **znacznik skali** na fotografowanym obiekcie. Znacznikiem slaki moze być zwykłą linijka, ew. możemy zmierzyć odległość pomiędzy dwoma charakterystycznymi punktami na scenie. W obu przypadkach chodzi o pomiar z **milimetrową dokłądnością**.
 
 Otwieramy panel `View > Panes > Ground Control`. Mamy 2 możliwości mozemy dodać punkty referencyjne na zdjęciach (sekcja cameras, Fig. 9.1) lub bezpośrednio na obiekcie. Najpierw uaktywniamy widok punktó przyciskiem `Show Markers` (Fig. 9.1). Następnie dodajemy punkt, klikając prawym przyciskiem myszy (PPM) w wybranym miejscu z którego pobieraliśmy wymiary (Fig. 9.1). Wybieramy opcjie `Add marker` z menu kontekstowego. Powtarzamy czynnośćdla drugiego punktu referencyjnego. Rozmieszczenie punktów można dostosować bezpośrednio w widoku zdjęcia (Fig. 9.1).
