@@ -238,25 +238,21 @@ Przy kalibracji koordynat bardzo pomocny jest autorski skrypt, stworzony przez s
 
 Po ściągnięciu skryptów, kopiujemy zawartość archiwum do folderu `C:\Users\[username]\AppData\Local\Agisoft\PhotoScan Pro\scripts`. Nasatępnie restartujemy program. Skrypty uruchamiamy z menu `Custom Scripts`.
 
-Następnie ustawiamy widok na ortograficzny i używając ortograficznych rzutów opisanych w 3 kroku (Front, Top, Right, etc.), obracamy region zakrezu (`Bounding box`, Fig. 10.1), tak aby wcięcia znajdowały się po prawej stronie, a czerwona płaszczyzna z tyłu modelu (Fig. 10.2). 
-
 ![Custom scripts](photoscan_10_01.png "Custom scripts")
-<sup>Fig. 10.2 Custom scripts</sup>
+<sup>Fig. 10.1 Custom scripts</sup>
+
+Następnie ustawiamy widok na ortograficzny i używając ortograficznych rzutów opisanych w 3 kroku (Front, Top, Right, etc.), obracamy region zakrezu (`Bounding box`, Fig. 10.1), tak aby **wcięcia znajdowały się po prawej stronie**, a **czerwona płaszczyzna z tyłu modelu** (Fig. 10.2). 
+
 
 ![Standardowy system koordynat](photoscan_10_02.png "Standardowy system koordynat")
 <sup>Fig. 10.2 Standardowy system koordynat</sup>
 
-Jeżeli eksportujemy do formatu FBX, czerwona płąszczyzna powinna znajdować się u góry modelu (Fig. 10.3).
+Następnie uruchamiamy skrypt z menu `Custom menu > Cordinates to bounding box + rotate`. Teraz sprawdzamy czy orientacja naszego modelu zgadza sięz widokami zdefiniowanymi w programine
 
-![Koordynaty FBX](photoscan_10_03.png "Koordynaty FBX")
-<sup>Fig. 10.3 Koordynaty FBX (osie Z i X zamienione)</sup>
-
-Następnie uruchamiamy skrypt z menu `Custom menu > Cordinates to bounding box + rotate`.
-
-Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny. Punkt ten znajduje się w centrum regionu zakresu. Aby dokładniej określić położenie punktu zero, możemy pomniejszyć region zakresu (Fig. 10.1, 10.4).
+Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny. Punkt ten znajduje się w centrum regionu zakresu. Aby dokładniej określić położenie punktu zero, możemy pomniejszyć region zakresu (Fig. 10.1, 10.3).
 
 ![Określanie punktu zero](photoscan_10_04.png "Określanie punktu zero")
-<sup>Fig. 10.4 Określanie punktu zero</sup>
+<sup>Fig. 10.3 Określanie punktu zero</sup>
 
 > **UWAGA!**   
 > Jeżeli przy obracamy również sam model, zmienia się przy tym też orientacja regionu zakresu. Po rotacji modelu należu ponownnie zorientować bounding box, a następnie uruchomić skrypt.
