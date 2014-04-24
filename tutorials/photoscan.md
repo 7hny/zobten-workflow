@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: Photoscan
+title: Photoscan - rekonstrukcja fotogrametryczna modeli 3D
 meta: Opis procesu rekonstrukcji modeli 3D ze zdjęć przy pomocy programu Photoscan
 sources:
     - url: http://www.agisoft.ru/products/photoscan
