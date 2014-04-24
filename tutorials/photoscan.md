@@ -262,7 +262,7 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 ###Formaty eksportu
 * **FBX** - tu mamy wszystko, tekstury, kamery, animację itd.
 * **Obj** - Tylko tekstury i geometria. W tym formacie eksportujemy do programów **zBrush** i **Mudbox**
-* **3ds** - Tekstury geometria i kamery. W tym formacie eksportujemy do **3DS Max**. Informacja o kamerach jest przydatna, ponieważ pozwala nam ona na na użycie zdjęcia jako `backplate` w trybie (2d pan & zoom)[https://www.youtube.com/watch?v=KbwAxa9sk_k] (3DS Max w wersji 2014 i nowszej).
+* **3ds** - Tekstury geometria i kamery. W tym formacie eksportujemy do **3DS Max**. Informacja o kamerach jest przydatna, ponieważ pozwala nam ona na na użycie zdjęcia jako `backplate` w trybie [2d pan & zoom])https://www.youtube.com/watch?v=KbwAxa9sk_k) (3DS Max w wersji 2014 i nowszej).
 
 ### Import w programie zewnętrznym
 * Wyeksportowaliśmy plik w który m oś zet to oś wysokości. Niektóre pakiety 3D mają oś wysokości (Z) zamienioną z osią głębokości (Y). W tym przypadku musimy zamienic osie w ustawiniach importu.
