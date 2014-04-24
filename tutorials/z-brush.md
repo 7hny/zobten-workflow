@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: zBrush i Mudobx - Czyszczenie skanów fotogrametrycznych
+title: zBrush i Mudobx - czyszczenie skanów
 meta: Opis procesu czyszczenia i optymalizacji modeli 3D zrekonstruowanych w programie Photoscan, przy użyciu programów zBrush i Mudobx.
 sources:
     - url: http://pixologic.com/

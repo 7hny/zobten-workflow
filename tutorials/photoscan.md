@@ -1,6 +1,6 @@
 ---
 layout: tutorial
-title: Photoscan - rekonstrukcja fotogrametryczna modeli 3D
+title: Photoscan - rekonstrukcja 3D
 meta: Opis procesu rekonstrukcji modeli 3D ze zdjęć przy pomocy programu Photoscan
 sources:
     - url: http://www.agisoft.ru/products/photoscan
@@ -241,18 +241,21 @@ Po ściągnięciu skryptów, kopiujemy zawartość archiwum do folderu `C:\Users
 ![Custom scripts](photoscan_10_01.png "Custom scripts")
 <sup>Fig. 10.1 Custom scripts</sup>
 
-Następnie ustawiamy widok na ortograficzny i używając ortograficznych rzutów opisanych w 3 kroku (Front, Top, Right, etc.), obracamy region zakrezu (`Bounding box`, Fig. 10.1), tak aby **wcięcia znajdowały się po prawej stronie**, a **czerwona płaszczyzna z tyłu modelu** (Fig. 10.2). 
+Następnie ustawiamy widok na ortograficzny i używając ortograficznych rzutów opisanych w 3 kroku (Front, Top, Right, etc.), obracamy region zakrezu (`Bounding box`, Fig. 10.1), tak aby **wcięcia znajdowały się po prawej stronie**, a **czerwona płaszczyzna na górze modelu** (Fig. 10.3). 
 
 
-![Standardowy system koordynat](photoscan_10_02.png "Standardowy system koordynat")
-<sup>Fig. 10.2 Standardowy system koordynat</sup>
+![Standardowy system koordynat](photoscan_10_02.png "Domyślny system koordynat")
+<sup>Fig. 10.2 Domyślny system koordynat programu</sup>
+
+![Standardowy system koordynat](photoscan_10_03.png "System koordynat do eksportu")
+<sup>Fig. 10.3 System koordynat do eksportu</sup>
 
 Następnie uruchamiamy skrypt z menu `Custom menu > Cordinates to bounding box + rotate`. Teraz sprawdzamy czy orientacja naszego modelu zgadza sięz widokami zdefiniowanymi w programine
 
-Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny. Punkt ten znajduje się w centrum regionu zakresu. Aby dokładniej określić położenie punktu zero, możemy pomniejszyć region zakresu (Fig. 10.1, 10.3).
+Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny. Punkt ten znajduje się w centrum regionu zakresu. Aby dokładniej określić położenie punktu zero, możemy pomniejszyć region zakresu (Fig. 10.1, 10.4).
 
 ![Określanie punktu zero](photoscan_10_04.png "Określanie punktu zero")
-<sup>Fig. 10.3 Określanie punktu zero</sup>
+<sup>Fig. 10.4 Określanie punktu zero</sup>
 
 > **UWAGA!**   
 > Jeżeli przy obracamy również sam model, zmienia się przy tym też orientacja regionu zakresu. Po rotacji modelu należu ponownnie zorientować bounding box, a następnie uruchomić skrypt.
@@ -267,6 +270,7 @@ Ostatnią czynnością jaką należy wykonać jest ustalenie punktu `zero` sceny
 ### Import w programie zewnętrznym
 * Wyeksportowaliśmy plik w który m oś zet to oś wysokości. Niektóre pakiety 3D mają oś wysokości (Z) zamienioną z osią głębokości (Y). W tym przypadku musimy zamienic osie w ustawiniach importu.
 * Przyjeliśmy centymetry jako domyślną jednostkę. Należy przyjąć analogiczne jednostki w ustawieniach importu w programie zewnętrznym.
+* Importując plik `obj.` w **3ds MAX**, powinniśmy wybrać opcję `Flip ZY-axis`
 
 > Jeżeli modeli jest zbyt szczegółowy, możemy użyć opcji `Tools > Mesh > Decimate Mesh` aby zmniejszyć szczegółowość geometryczną obiektu przed eksportem. Jest to czasami przydatne jeżeli siatka którą eksportujemy ma charakter tymczasowy. 
 
