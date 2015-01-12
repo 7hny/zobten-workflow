@@ -30,4 +30,7 @@ Przed przystąpieniem do tego tutoriala (jeżeli nie znamy podstaw obsługi prog
 * [Polygroups1](https://www.youtube.com/watch?v=6AfV2hmSmqo)
 * [Polygroups2](http://docs.pixologic.com/reference-guide/tool/polymesh/polygroups/)
 
-### Decimation Master
+* [Fix non manifold](http://www.hard-light.net/forums/index.php?topic=73970.0)
+
+
+* Photoshop - new color layer
